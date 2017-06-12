@@ -1,0 +1,142 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* general */
+p, li {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+  margin: 16px 0;
+  opacity: 1;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.fade {
+  opacity: 0.3;
+}
+
+.space-top {
+  margin-top: 160px;
+}
+
+.content-title {
+  color: #FFF399;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 21px;
+}
+
+.content-subtitle {
+  color: #FFF399;
+  margin-bottom: 120px;
+}
+
+.sub-content-title {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 800;
+  color: #FFF399;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.content-line {
+  border: 1px solid #EFEFEF;
+  opacity: 0.5;
+}
+
+.sub-content-line {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.bg-1 {
+  background: -moz-linear-gradient(top, rgba(41,31,60,1) 0%, rgba(55,0,33,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(41,31,60,1)), color-stop(100%, rgba(55,0,33,1)));
+  background: -webkit-linear-gradient(top, rgba(41,31,60,1) 0%, rgba(55,0,33,1) 100%);
+  text-align: center;
+}
+
+.bg-2 {
+  background: -moz-linear-gradient(top, rgba(55,0,33,1) 0%, rgba(41,31,60,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(55,0,33,1)), color-stop(100%, rgba(41,31,60,1)));
+  background: -webkit-linear-gradient(top, rgba(55,0,33,1) 0%, rgba(41,31,60,1) 100%);
+  text-align: center;
+}
+
+/* nav */
+.nav-logo {
+  width: 80px;
+  margin-left: 12px;
+}
+
+.nav-links {
+  margin-right: 18px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.mobile-nav-btn {
+  width: 34px;
+}
+
+/* home */
+
+.macbook {
+  width: 100%;
+}
+
+.home-title {
+  width: 300px;
+  margin-top: 16px;
+}
+
+
+/* a/b testing */
+.content-tile {
+  padding: 40px;
+  height: 380px;
+  border: 1px solid #EFEFEF;
+  margin-bottom: 24px;
+}
+
+.content-tile > ul {
+  text-align: left;
+}
+
+.content-tile > ul > li {
+  margin: 16px 0;
+}
+
+.content-tile > .sub-content-title {
+  margin-bottom: 34px;
+}
+
+/* project screens section */
+
+.project-img-lg {
+  max-width: 1000px;
+  margin: 80px auto;
+}
+
+.desktop-project-img {
+  width: 290px;
+}
+
+.mobile-project-img {
+  width: 90px;
+}
+
+.project-title {
+  margin-bottom: 34px;
+}
