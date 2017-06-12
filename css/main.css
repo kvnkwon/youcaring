@@ -24,6 +24,27 @@ p, li {
   margin-top: 160px;
 }
 
+.conclusion-title {
+  color: #FFF399;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 48px;
+  margin-bottom: 16px
+}
+
+.main-btn {
+  border: 1px solid #fff;
+  padding: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  background: none;
+  margin-top: 24px;
+}
+
 .content-title {
   color: #FFF399;
   font-family: 'Rubik', sans-serif;
@@ -135,6 +156,10 @@ p, li {
 
 .mobile-project-img {
   width: 90px;
+}
+
+.modal-project-img {
+  width: 420px;
 }
 
 .project-title {
